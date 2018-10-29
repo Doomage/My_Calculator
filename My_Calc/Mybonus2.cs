@@ -5,6 +5,7 @@ namespace MyBonus2
     {
         public string x;
         public float num1, num2;
+
         public Calculator()
         {
             do

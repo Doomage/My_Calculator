@@ -39,21 +39,21 @@ namespace MyBonus4
                 Console.Write("Your option? ");
                 string choice = Console.ReadLine();
                 // Use a switch statement to do the math
-                if (choice == "add" || choice == "1")
+                if (choice == "Add" || choice == "1")
                 {
                     Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 + num2)); // Line 32
                 }
-                else if (choice == "subtract" || choice == "2")
+                else if (choice == "Subtract" || choice == "2")
                 {
                     Console.WriteLine($"Your result: {num1} - {num2} = " + (num1 - num2));
 
                 }
-                else if (choice == "multiply" || choice == "3")
+                else if (choice == "Multiply" || choice == "3")
                 {
                     Console.WriteLine($"Your result: {num1} * {num2} = " + (num1 * num2));
 
                 }
-                else if (choice == "divide" || choice == "4")
+                else if (choice == "Divide" || choice == "4")
                 {
                     while (num2 == 0)
                     {

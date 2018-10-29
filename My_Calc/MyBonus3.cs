@@ -43,16 +43,16 @@ namespace MyBonus3
                 // Use a switch statement to do the math
                 switch (Console.ReadLine())
                 {
-                    case "add":
+                    case "Add":
                         Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 + num2)); // Line 32
                         break;
-                    case "subtract":
+                    case "Subtract":
                         Console.WriteLine($"Your result: {num1} - {num2} = " + (num1 - num2));
                         break;
-                    case "multiply":
+                    case "Multiply":
                         Console.WriteLine($"Your result: {num1} * {num2} = " + (num1 * num2));
                         break;
-                    case "divide":
+                    case "Divide":
                         // Ask the user to enter a non-zero divisor until they do so
                         while (num2 == 0)
                         {
